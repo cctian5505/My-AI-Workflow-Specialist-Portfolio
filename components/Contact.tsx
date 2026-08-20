@@ -7,10 +7,10 @@ export default function Contact() {
   const { contact } = portfolio;
 
   const links = [
-    { name: "Email", href: `mailto:${contact.email}`, icon: "email" },
-    { name: "Telegram", href: contact.telegram, icon: "telegram" },
-    { name: "GitHub", href: contact.github, icon: "github" },
-    { name: "LinkedIn", href: contact.linkedin, icon: "linkedin" },
+    //{ name: "Email", href: `mailto:${contact.email}`, icon: "email" },
+    //{ name: "Telegram", href: contact.telegram, icon: "telegram" },
+    //{ name: "GitHub", href: contact.github, icon: "github" },
+    //{ name: "LinkedIn", href: contact.linkedin, icon: "linkedin" },
   ].filter((l) => l.href);
 
   return (

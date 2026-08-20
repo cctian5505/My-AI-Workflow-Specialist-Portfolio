@@ -258,17 +258,17 @@ export const portfolio = {
     { name: "ChatGPT", icon: "" },
     { name: "VSCode", icon: "" },
     
-  ],
+  ] as Tool[],
 
   contact: {
     // EDIT: Your email address
-    email: "YOUR_EMAIL@example.com",
+    // email: "YOUR_EMAIL@example.com",
     // EDIT: Your Telegram handle / link
-    telegram: "https://t.me/YOUR_TELEGRAM",
+    // telegram: "https://t.me/YOUR_TELEGRAMs", //Remove Comment if you want to show your Telegram link
     // EDIT: Your GitHub profile
-    github: "https://github.com/YOUR_GITHUB",
+    // github: "https://github.com/YOUR_GITHUB", //Remove Comment if you want to show your GitHub link
     // EDIT: Your LinkedIn profile
-    linkedin: "https://linkedin.com/in/YOUR_LINKEDIN",
+    //linkedin: "https://linkedin.com/in/YOUR_LINKEDIN", //Remove Comment if you want to show your LinkedIn link
 
     // EDIT: Your Calendly booking page URL (e.g. "https://calendly.com/your-name/consult").
     // Leave this as an empty string "" to hide the booking tile entirely.

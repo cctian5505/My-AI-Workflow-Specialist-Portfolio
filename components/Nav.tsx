@@ -44,8 +44,8 @@ export default function Nav() {
           className="font-display font-semibold tracking-tight text-lg text-text hover:text-accent transition-colors"
           aria-label={`${portfolio.profile.name} — home`}
         >
-          {initials(portfolio.profile.name)}
-          <span className="text-accent">.</span>
+          {portfolio.profile.name}
+          <span className="text-accent"> .</span>
         </a>
 
         <ul className="hidden sm:flex items-center gap-8 font-mono text-[13px] tracking-wide uppercase text-text-muted">

@@ -51,14 +51,14 @@ export type Tool = {
 export const portfolio = {
   profile: {
     // EDIT: Your full name
-    name: "Christian",
+    name: "Christian Espinosa",
 
     // EDIT: Your professional title
     title: "Workflow & AI Automation Specialist",
 
     // EDIT: Your short About Me description (2–4 sentences, your own voice)
     about:
-      "YOUR_ABOUT_TEXT — I build the automation layer behind a real e-commerce operation: pricing pipelines, Telegram agents, scrapers, and the sites that run on top of them. I learn by shipping, not by reading docs cover to cover — most of what's below started as a problem in my own business that I automated my way out of.",
+      "I enjoy finding repetitive problems and figuring out how to make them work automatically. I build workflow and AI automation systems that connect tools, data, and processes into something practical and reliable. Most of what I build starts with a real problem in my own work or business, and I learn by building my way through it.",
 
     // EDIT: Path to your professional portrait — drop the file in /public
     image: "/profile.svg",
@@ -206,6 +206,37 @@ export const portfolio = {
       github: "",
       demo: "",
     },
+    {
+      id: "Multi-Channel-Lead-Management-Sales-Automation",
+      name: "Multi-Channel Lead Management & Sales Automation",
+      category: "Business Automation",
+      image: "/projects/multi-Channel-lead-management-sales-automation1.png",
+      images: ["/projects/multi-Channel-lead-management-sales-automation2.png"],
+      shortDescription:
+        "",
+      stack: [
+        "n8n",
+        "HubSpot",
+        "OpenAI",
+        "Gmail",
+        "Slack",
+        "Webhooks",
+        "Google Sheets",
+        "JavaScript"
+      ],
+      featured: false,
+
+      problem: "Leads can arrive from different channels such as website forms, Gmail, and receptionist submissions, each with different data structures. Managing these inquiries separately makes it difficult to maintain consistent CRM records, identify urgent inquiries, and keep a reliable history of every lead.",
+      solution: "Built a centralized, source-agnostic lead management engine in n8n that receives normalized lead data from multiple intake workflows, uses AI to analyze and classify each inquiry, finds or creates the corresponding HubSpot contact, generates a lead identifier, records the event, and routes important notifications automatically.",
+      howItWorks: "Website, Gmail, and receptionist inputs are first normalized into a common lead structure before being passed to the Lead Management Engine. The workflow analyzes the inquiry with AI, normalizes the AI output, searches HubSpot by email, updates an existing contact or creates a new one, generates a Lead ID, logs the lead event to Google Sheets, and routes urgent inquiries to the appropriate Slack channel. New contacts also receive an automated welcome email.",
+      role: "Designed and built the n8n lead management architecture, including multi-source intake, data normalization, AI lead analysis, HubSpot CRM synchronization, lead ID generation, audit logging, notification routing, and automated customer acknowledgement.",
+      challenges: "Keeping the core lead management engine independent from individual intake sources while ensuring that data from Gmail, website forms, and receptionist submissions follows the same structure. Another challenge was handling both existing and new HubSpot contacts while preserving a consistent audit trail and routing urgent inquiries appropriately.",
+      result: "Created a centralized lead management engine that gives the business one consistent workflow for processing leads regardless of their source, while automating CRM synchronization, AI analysis, audit logging, urgent notifications, and customer acknowledgement.",
+      learned: "How to design reusable n8n sub-workflows, normalize data from different sources into a common structure, integrate AI into business processes, synchronize CRM records through APIs, and separate source-specific intake logic from a centralized business automation engine.",
+
+      github: "",
+      demo: "",
+    },
   ] as Project[],
 
   // EDIT: Add or remove tools. `icon` matches a key in components/ToolIcon.tsx
@@ -220,6 +251,13 @@ export const portfolio = {
     { name: "Next.js", icon: "nextjs" },
     { name: "TypeScript", icon: "typescript" },
     { name: "Excel", icon: "excel" },
+    { name: "Google Sheet", icon: "" },
+    { name: "Google Calendar", icon: "" },
+    { name: "Calendly", icon: "" },
+    { name: "Claude", icon: "" },
+    { name: "ChatGPT", icon: "" },
+    { name: "VSCode", icon: "" },
+    
   ] as Tool[],
 
   contact: {

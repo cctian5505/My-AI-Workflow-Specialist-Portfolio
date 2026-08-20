@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="700" viewBox="0 0 560 700">
+  <rect width="560" height="700" fill="#13171b"/>
+  <rect x="1" y="1" width="558" height="698" fill="none" stroke="#2f363d" stroke-width="2" stroke-dasharray="8 6"/>
+  <g transform="translate(280.0,350.0)" text-anchor="middle" font-family="monospace">
+    <text y="-6" fill="#5c656c" font-size="15">PLACEHOLDER</text>
+    <text y="18" fill="#4fd1ae" font-size="12">replace public/profile.jpg</text>
+  </g>
+</svg>

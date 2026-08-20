@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#13171b"/>
+  <rect x="1" y="1" width="1278" height="798" fill="none" stroke="#2f363d" stroke-width="2" stroke-dasharray="8 6"/>
+  <g transform="translate(640.0,400.0)" text-anchor="middle" font-family="monospace">
+    <text y="-6" fill="#5c656c" font-size="15">PROJECT COVER PLACEHOLDER</text>
+    <text y="18" fill="#4fd1ae" font-size="12">replace public/projects/telegram-rate-agent.svg</text>
+  </g>
+</svg>

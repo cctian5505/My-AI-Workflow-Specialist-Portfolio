@@ -61,7 +61,7 @@ export const portfolio = {
       "I enjoy finding repetitive problems and figuring out how to make them work automatically. I build workflow and AI automation systems that connect tools, data, and processes into something practical and reliable. Most of what I build starts with a real problem in my own work or business, and I learn by building my way through it.",
 
     // EDIT: Path to your professional portrait — drop the file in /public
-    image: "/profile.svg",
+    image: "/profile.png",
 
     // EDIT: Your social / contact links. Add or remove entries freely.
     socials: [

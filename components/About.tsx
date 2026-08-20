@@ -26,7 +26,6 @@ export default function About() {
               />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <span className="font-mono text-xs text-text-faint">
-                  profile.jpg
                 </span>
               </div>
               <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/5" />

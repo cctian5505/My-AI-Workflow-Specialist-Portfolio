@@ -6,12 +6,11 @@ import BookingTile from "./BookingTile";
 export default function Contact() {
   const { contact } = portfolio;
 
-  const links = [
-    //{ name: "Email", href: `mailto:${contact.email}`, icon: "email" },
-    //{ name: "Telegram", href: contact.telegram, icon: "telegram" },
-    //{ name: "GitHub", href: contact.github, icon: "github" },
-    //{ name: "LinkedIn", href: contact.linkedin, icon: "linkedin" },
-  ].filter((l) => l.href);
+const links: {
+  name: string;
+  href: string;
+  icon: string;
+}[] = [];
 
   return (
     <section id="contact" className="scroll-mt-16 py-24 sm:py-28">

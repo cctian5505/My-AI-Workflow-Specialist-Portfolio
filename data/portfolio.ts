@@ -262,13 +262,13 @@ export const portfolio = {
 
   contact: {
     // EDIT: Your email address
-    // email: "YOUR_EMAIL@example.com",
+    email: "ctian5505@gmail.com",
     // EDIT: Your Telegram handle / link
-    // telegram: "https://t.me/YOUR_TELEGRAMs", //Remove Comment if you want to show your Telegram link
+    telegram: "https://t.me/YOUR_TELEGRAMs",
     // EDIT: Your GitHub profile
-    // github: "https://github.com/YOUR_GITHUB", //Remove Comment if you want to show your GitHub link
+    github: "https://github.com/YOUR_GITHUB",
     // EDIT: Your LinkedIn profile
-    //linkedin: "https://linkedin.com/in/YOUR_LINKEDIN", //Remove Comment if you want to show your LinkedIn link
+    linkedin: "https://linkedin.com/in/YOUR_LINKEDIN",
 
     // EDIT: Your Calendly booking page URL (e.g. "https://calendly.com/your-name/consult").
     // Leave this as an empty string "" to hide the booking tile entirely.

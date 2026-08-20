@@ -40,7 +40,7 @@ export default function Nav() {
     >
       <nav className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <a
-          href="#top"
+          href="/"
           className="font-display font-semibold tracking-tight text-lg text-text hover:text-accent transition-colors"
           aria-label={`${portfolio.profile.name} — home`}
         >

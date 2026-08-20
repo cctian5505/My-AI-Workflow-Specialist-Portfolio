@@ -65,9 +65,9 @@ export const portfolio = {
 
     // EDIT: Your social / contact links. Add or remove entries freely.
     socials: [
-      { name: "GitHub", url: "https://github.com/YOUR_GITHUB", icon: "github" },
+      //{ name: "GitHub", url: "https://github.com/YOUR_GITHUB", icon: "github" },
       { name: "LinkedIn", url: "https://linkedin.com/in/YOUR_LINKEDIN", icon: "linkedin" },
-      { name: "Telegram", url: "https://t.me/YOUR_TELEGRAM", icon: "telegram" },
+      //{ name: "Telegram", url: "https://t.me/YOUR_TELEGRAM", icon: "telegram" },
     ],
   },
 
@@ -251,7 +251,7 @@ export const portfolio = {
     { name: "Next.js", icon: "nextjs" },
     { name: "TypeScript", icon: "typescript" },
     { name: "Excel", icon: "excel" },
-    { name: "Google Sheet", icon: "" },
+    { name: "Google Sheets", icon: "" },
     { name: "Google Calendar", icon: "" },
     { name: "Calendly", icon: "" },
     { name: "Claude", icon: "" },

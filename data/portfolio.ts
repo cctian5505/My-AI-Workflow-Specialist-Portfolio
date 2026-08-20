@@ -159,6 +159,7 @@ export const portfolio = {
       name: "Dota 2 Price History Tracker",
       category: "Workflow & System Integration",
       image: "/projects/price-history-tracker.svg",
+      images: ["/projects/multi-Channel-lead-management-sales-automation1.png","/projects/multi-Channel-lead-management-sales-automation2.png"],
       shortDescription:
         "A static site that turns a raw Excel price export into a searchable, chartable price-history dashboard across 1,300+ items.",
       stack: ["Python", "JavaScript", "uPlot"],

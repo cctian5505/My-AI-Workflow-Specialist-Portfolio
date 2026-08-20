@@ -258,7 +258,7 @@ export const portfolio = {
     { name: "ChatGPT", icon: "" },
     { name: "VSCode", icon: "" },
     
-  ] as Tool[],
+  ],
 
   contact: {
     // EDIT: Your email address

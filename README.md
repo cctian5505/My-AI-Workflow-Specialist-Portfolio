@@ -187,3 +187,5 @@ public/
 ## Placeholder content
 
 Anything marked `YOUR_...` or `PROJECT_DESCRIPTION` in `data/portfolio.ts` is a placeholder — replace it with your real information before treating the site as finished. Placeholder images are intentionally plain SVGs labeled with the file path they replace, so it's obvious what still needs a real image. `contact.calendly` is intentionally left as `""` until you add your real booking URL.
+
+## How to add Project

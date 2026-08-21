@@ -58,7 +58,7 @@ export const portfolio = {
 
     // EDIT: Your short About Me description (2–4 sentences, your own voice)
     about:
-      "I enjoy finding repetitive problems and figuring out how to make them work automatically. I build workflow and AI automation systems that connect tools, data, and processes into something practical and reliable. Most of what I build starts with a real problem in my own work or business, and I learn by building my way through it.",
+      "I build workflow and AI automation systems that connect tools, data, and business processes into practical, reliable workflows. I work with n8n, APIs, CRM systems, webhooks, AI, and business tools to automate repetitive processes and reduce manual work. Most of what I build starts with a real problem — then I design and build the system around it.",
 
     // EDIT: Path to your professional portrait — drop the file in /public
     image: "/profile.png",
@@ -75,17 +75,17 @@ export const portfolio = {
     {
       title: "Business Automation",
       description:
-        "I help businesses automate repetitive processes and turn manual workflows into efficient systems.",
+        "I automate repetitive business processes and turn manual workflows into reliable systems.",
     },
     {
       title: "AI Automation",
       description:
-        "I integrate AI into workflows where it can provide meaningful value through reasoning, generation, classification, decision-making, or other useful tasks.",
+        "I integrate AI into workflows for classification, analysis, generation, decision-making, and other useful business tasks.",
     },
     {
       title: "Workflow & System Integration",
       description:
-        "I connect tools, APIs, platforms, and services so information can move automatically between systems.",
+        "I connect APIs, CRMs, forms, calendars, email, and other tools so information can move automatically between systems.",
     },
   ],
 
